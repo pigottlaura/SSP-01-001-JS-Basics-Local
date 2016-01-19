@@ -65,6 +65,10 @@ for(var i = 0; i < otherPerson.friends.length; i++)
 	console.log(otherPerson.name + " is friends with " + otherPerson.friends[i]);
 }
 
+var myFunction = function(a, b){
+	return a + b;
+}
+console.log(myFunction(1, 6) + " = named function result");
 /*
 Java or ActionScript (Create a class, and then create an object of that class)
 
